@@ -1,0 +1,21 @@
+
+body {
+    background-color: black;
+}
+
+.container {
+    margin: 1rem;
+    color: #ffff;
+    padding: 4rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img {
+    width: 15vw;
+    min-width: 10rem;
+}
