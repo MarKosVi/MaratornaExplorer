@@ -36,16 +36,26 @@ section p {
 input {
     display: block; 
     width: 100%;
-    border: none;
     padding-top: 20px;
     padding-bottom: 20px;
-    
-    
+    border-radius: 5px;
+    border: none;
 }
 
 .container button {
     display: block; 
     width: 100%;
     padding: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    font-size: 20px;
+    background-color: rgb(130, 27, 226);
+    transition: 0.2;
+}
+
+.container button:hover {
+    background-color: rgb(126, 57, 190);
     
 }
