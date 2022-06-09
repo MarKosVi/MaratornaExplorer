@@ -16,15 +16,19 @@ section.container {
     width: 80%;
     max-width: 400px;
     margin-inline: auto;
+    display: block;
 }
 
 section.container img {
     width: 15vw;
     min-width: 10rem;
+    padding: 0;
+    
 }
 
 section h1 {
     margin: 40px 0px 10px 0px;
+    font-size: 2rem;
     opacity: 0.9;
 }
 
@@ -33,29 +37,25 @@ section p {
     opacity: 0.7;
 }
 
-input {
-    display: block; 
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 5px;
-    border: none;
-}
-
-.container button {
+.container input, button {
     display: block; 
     width: 100%;
     padding: 20px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: none;
-    color: #ffff;
+    border-radius: 4px;
     font-size: 20px;
-    background-color: rgb(130, 27, 226);
-    transition: 0.2;
+    border: none;
+    box-sizing: border-box;
+}
+
+.container button {
+    margin-top: 20px;
+    color: #ffff;
+    background-color: blueviolet;
+    transition: filter, .2s;
 }
 
 .container button:hover {
-    background-color: rgb(126, 57, 190);
+    filter: brightness(1.2);
+    cursor: pointer;
     
 }
