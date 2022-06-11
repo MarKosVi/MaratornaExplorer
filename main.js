@@ -60,18 +60,16 @@ let Respostas = [ "Certeza!",
  // Limpar input
 function clear() {
     setTimeout(()=> {
-        result.removeAttribute('ativate');
+        campo.value = '';
         result.setAttribute('class', 'disabled');
-    } ,4000);
+    } ,5000);
 }
 
 button.addEventListener('click', () => {
     if(campo.value.length != ' '){
         let num = Math.floor(Math.random()* Respostas.length);
         result.innerText = Respostas[num];
-        result.removeAttribute('disabled');
         result.setAttribute('class', 'ativate');
         clear();
-
     }
 })
