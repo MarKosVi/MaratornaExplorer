@@ -57,3 +57,16 @@ section p {
     filter: brightness(1.2);
     cursor: pointer;
 }
+
+.container .ativate {
+    margin-top: 30px;
+    color: rgb(117, 236, 236);
+    font-size: 20px;
+    transition: 1.9s;
+    opacity: 1;
+}
+
+.container .disabled {
+    opacity: 0;
+    transition: 1.9s;
+}
