@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 body {
     background-color: black;
     color: #ffff;
@@ -57,5 +56,4 @@ section p {
 .container button:hover {
     filter: brightness(1.2);
     cursor: pointer;
-    
 }
